@@ -1,6 +1,6 @@
 ## See it live at:
 
-https://di-marko.github.io/art-generator
+https://di-marko.github.io/geometry-art
 
 ## Github pages may be down. In such case:
 1. Clone the project
