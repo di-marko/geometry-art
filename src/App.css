@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --main-clr: rgba(240, 240, 240, 1);
+  --txt-clr: #fff;
+  --p-clr: #333;
+  --p-clr2: #222;
+  --box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.8), 2px 2px 5px rgba(200, 200, 200, 1);
+  --hover-shadow: -1px -1px 2px rgba(255, 255, 255, 1), 1px 1px 2px rgba(200, 200, 200, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--main-clr);
+}
+
+.wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  padding: 15px;
+  width: 60vmin;
+  height: 90vmin;
+  border-radius: 10px;
+  background-color: var(--main-clr);
+  box-shadow: var(--box-shadow);
+}
+
+.container div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 12px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 3vmin;
+  color: var(--p-clr2);
+  background-color: var(--main-clr);
+  box-shadow: var(--box-shadow);
+}
+
+button:hover {
+  cursor: pointer;
+  background: -webkit-linear-gradient(
+    rgba(64, 93, 230, 1),
+    rgba(88, 81, 219, 1),
+    rgba(131, 58, 180, 1),
+    rgba(193, 53, 132, 1),
+    rgba(225, 48, 108, 1),
+    rgba(253, 29, 29, 1),
+    rgba(245, 96, 64, 1),
+    rgba(247, 119, 55, 1),
+    rgba(252, 175, 69, 1),
+    rgba(255, 220, 128, 1)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+button:active {
+  -webkit-box-shadow: var(--hover-shadow);
+  -moz-box-shadow: var(--hover-shadow);
+  box-shadow: var(--hover-shadow);
+}
+
+.quad-circle-1 {
+  clip-path: circle(100% at 0 0);
+}
+
+.quad-circle-2 {
+  clip-path: circle(100% at 100% 0);
+}
+
+.quad-circle-3 {
+  clip-path: circle(100% at 100% 100%);
+}
+
+.quad-circle-4 {
+  clip-path: circle(100% at 0 100%);
+}
+
+.triangle-1 {
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+
+.triangle-2 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.triangle-3 {
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.triangle-4 {
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.circle {
+  border-radius: 50%;
+}
