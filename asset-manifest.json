@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/art-generator/static/css/main.cc42dcb3.css",
-    "main.js": "/art-generator/static/js/main.786e69b8.js",
-    "index.html": "/art-generator/index.html",
-    "main.cc42dcb3.css.map": "/art-generator/static/css/main.cc42dcb3.css.map",
-    "main.786e69b8.js.map": "/art-generator/static/js/main.786e69b8.js.map"
+    "main.css": "/art-geo-generator/static/css/main.cc42dcb3.css",
+    "main.js": "/art-geo-generator/static/js/main.786e69b8.js",
+    "index.html": "/art-geo-generator/index.html",
+    "main.cc42dcb3.css.map": "/art-geo-generator/static/css/main.cc42dcb3.css.map",
+    "main.786e69b8.js.map": "/art-geo-generator/static/js/main.786e69b8.js.map"
   },
   "entrypoints": [
     "static/css/main.cc42dcb3.css",
